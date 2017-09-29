@@ -1,0 +1,7 @@
+---
+applications:
+- name: java-hello-world
+  memory: 768M
+  instances: 1
+  random-route: true
+  path: target/fli-hello-world-1.0.0.war
