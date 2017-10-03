@@ -1,7 +1,9 @@
----
 applications:
 - name: java-hello-world
-  memory: 768M
+  disk_quota: 1G
   instances: 1
-  random-route: true
+  memory: 768M
+  routes:
+  - route: java-hello-world-ridiculous-impenitency.cfapps.io
+  stack: cflinuxfs2
   path: target/fli-hello-world-1.0.0.war
