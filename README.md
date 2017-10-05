@@ -1,5 +1,8 @@
 This is a simple Java Hello World web application for Cloud Foundry deployment.  
+ 
+Run
 
-Run mvn package
-Run cf push
-
+```plain
+mvn package
+cf push
+```
